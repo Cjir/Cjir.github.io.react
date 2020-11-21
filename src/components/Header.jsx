@@ -10,21 +10,21 @@ class Header extends Component {
   render() {
     return (
       <div>
-        <Navbar color="dark" dark> 
+        <Navbar sticky="top p-3"> 
 
           {/* Static Navigation */}
           <Nav className="ml-auto">
             <NavItem>
-              <NavLink href="/">Home</NavLink>
+              <NavLink className="nav-link" href="/">Home</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/">Projects</NavLink>
+              <NavLink className="nav-link" href="/">Projects</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/">Resume</NavLink>
+              <NavLink className="nav-link" href="/">Resume</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/">Contact</NavLink>
+              <NavLink className="nav-link" href="/">Contact</NavLink>
             </NavItem>
           </Nav>
           {/* Collapse Nav Toggle */}

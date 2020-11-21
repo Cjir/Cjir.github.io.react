@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {
-    Card, CardImg, CardText, CardBody,
+    Card, CardText, CardBody,
     CardTitle, CardSubtitle, Jumbotron
 } from 'reactstrap';
 
@@ -14,7 +14,7 @@ class Main extends Component {
     render() {
         return (
             <div>
-                <Jumbotron fluid>
+                <Jumbotron className="heroBanner" fluid>
                     <h1 className="text-center">
                         Christopher John Roman
                         <br />
@@ -26,20 +26,27 @@ class Main extends Component {
 
                 {/* About Me */}
                 <div className="container">
-                    <div className="row">
-                        <div className="col">
+
+                    {/* About Me Row */}
+                    <div className="row mb-3">
+                        <div className="col-4 offset-2">
+
+                        </div>
+                        <div className="col-4">
                             <h2>
                                 About Me
-                        </h2>
+                            </h2>
                             <br />
                             <p>
                                 Front End Developer with a background in design. Having a background in culinary, creation and design are things that spark my passion.
                             </p>
                             <p>
-                                My technical experience includes JavaScript, HTML/CSS/SCSS, React, Node, Npm, and Bootstrap. When not coding you can find me backpacking in the mountains with my two dogs or testing new recipes.
+                                My technical experience includes JavaScript, HTML/CSS/SCSS, React, Node, Npm, and Bootstrap. I'll be working on my photography or whipping up a recipe in the Kitchen.
                             </p>
                         </div>
                     </div>
+
+                    {/* Skill Information Row */}
                     <div className="row">
                         <div className="col-4 ml-auto">
                             <div>
@@ -76,6 +83,14 @@ class Main extends Component {
                                     </CardBody>
                                 </Card>
                             </div>
+                        </div>
+                    </div>
+                    {/* Divider */}
+                    <div className="Divider"/>
+
+                    <div className="row">
+                        <div className="col">
+
                         </div>
                     </div>
                 </div>
