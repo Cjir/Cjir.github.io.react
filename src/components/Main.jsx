@@ -90,7 +90,7 @@ class Main extends Component {
 
                     <div className="row">
                         <div className="col">
-
+                            <h2 className="text-center">Photography</h2>
                         </div>
                     </div>
                 </div>

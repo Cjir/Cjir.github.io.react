@@ -15,16 +15,16 @@ class Header extends Component {
           {/* Static Navigation */}
           <Nav className="ml-auto">
             <NavItem>
-              <NavLink className="nav-link" href="/">Home</NavLink>
+              <NavLink className="nav-link" href="/Main">Home</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="nav-link" href="/">Projects</NavLink>
+              <NavLink className="nav-link" href="/Projects">Projects</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="nav-link" href="/">Resume</NavLink>
+              <NavLink className="nav-link" href="/Resume">Resume</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="nav-link" href="/">Contact</NavLink>
+              <NavLink className="nav-link" href="/Contact">Contact</NavLink>
             </NavItem>
           </Nav>
           {/* Collapse Nav Toggle */}

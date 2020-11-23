@@ -16,7 +16,7 @@ div .card {
 div .Divider {
   height: 4px;
   background-color: #f5f5f5;
-  margin: 5em 7em;
+  margin: 4em .5em;
 }
 .heroBanner {
   background-color: rgba(29, 53, 87, 1);

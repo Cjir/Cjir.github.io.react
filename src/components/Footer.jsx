@@ -6,7 +6,7 @@ function Footer(props) {
             <div className="container">
                 <div className="row">             
                     <div className="col-4">
-                    <h3>Connect</h3>
+                    <h5>Connect</h5>
                     <p>chrisjiroman@gmail.com</p>
                     
 
@@ -20,9 +20,9 @@ function Footer(props) {
                     <div className="col-4">
                     <h5>Navigate</h5>
                         <ul className="list-inline list-unstyled">
-                            <li className="list-inline-item"><a href="/">project</a></li>
-                            <li className="list-inline-item"><a href="/">resume</a></li>
-                            <li className="list-inline-item"><a href="/">Contact</a></li>
+                            <li className="list-inline-item"><a href="/Projects">projects</a></li>
+                            <li className="list-inline-item"><a href="/Resume">resume</a></li>
+                            <li className="list-inline-item"><a href="/Contact">contact</a></li>
                         </ul>
                     </div>
                 </div>
